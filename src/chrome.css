@@ -1,0 +1,178 @@
+@media screen and (max-device-width: 480px) {
+    body {
+        -webkit-text-size-adjust: none;
+    }
+}
+
+img.picto {
+    width: 24px;
+    shape-rendering: geometricPrecision;
+}
+
+.chrome {
+    box-shadow: 0 3px 8px 0px rgba(0, 0, 0, 0.12);
+    position: absolute;
+    z-index: 10;
+    background: white;
+    border-radius: 1px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.chrome a {
+    text-decoration: none;
+    color: black;
+}
+
+.chrome a:hover {
+    color: black;
+}
+
+.chrome-button {
+    cursor: pointer;
+}
+
+.chrome-button:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.zoom {
+    top: 20px;
+    right: 20px;
+}
+
+.zoom .chrome-button {
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    line-height: 34px;
+    border-bottom: 1px solid black;
+}
+.zoom .chrome-button .picto {
+    margin: 8px;
+}
+
+.zoom .chrome-button.zoom-shuffle {
+    font-size: 20px;
+    line-height: 40px;
+    border-bottom: none;
+}
+
+.arrow {
+    bottom: 20px;
+    right: 20px;
+    flex: 1;
+    flex-direction: row;
+}
+
+.arrow .arrow-left,
+.arrow .arrow-right {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+.arrow .arrow-left img.picto,
+.arrow .arrow-right img.picto {
+    width: 30px;
+    margin: 8px;
+    margin-top: 9px;
+    margin-bottom: 7px;
+}
+
+.arrow-left {
+    border-right: 1px solid black;
+}
+
+.shuffle {
+    width: 100px;
+    height: 40px;
+    bottom: 50vh;
+    left: 20px;
+}
+
+.search {
+    left: 20px;
+    bottom: 20px;
+    display: flex;
+}
+
+.search-input-container {
+    padding: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-right: 1px solid black;
+    display: inline-block;
+}
+
+.search-input {
+    height: 30px;
+    width: 200px;
+    border: none;
+    font-size: 16px;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.chrome-button.chrome-button-search {
+    display: inline-block;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+}
+
+.chrome.menu {
+    left: 20px;
+    top: 0px;
+    text-align: left;
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.menu .menu-section {
+    width: 200px;
+    padding: 10px;
+}
+
+.menu .menu-section.menu-subtitle {
+    padding-top: 0;
+}
+
+.menu-contact,
+.menu-filters {
+    border-top: 1px solid black;
+}
+
+.menu .menu-contact .menu-social .picto {
+    padding-top: 2px;
+    padding-left: 1px;
+    padding-right: 9px;
+    width: 28px;
+}
+
+.menu-section.menu-filters {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menu-filters-option {
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+.menu-filters-option img.picto {
+    width: 16px;
+}
+
+.menu .close-button {
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    bottom: 3px;
+}
+
+.menu .close-button img.picto {
+    width: 19px;
+}
