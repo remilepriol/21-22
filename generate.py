@@ -32,6 +32,7 @@ def get_parts(filename):
 def save_thumbnails(filepath, category):
     path_no_ext = os.path.splitext(filepath)[0]
     path = unidecode(path_no_ext).replace("/images/", "/thumbs/").replace(" ", "_")
+    os.makedirs(os.path.dirname(path), exist_ok=True)
 
     max_size = 3500 if category == "Facilitation" else 1500
     image = Image.open(filepath)
@@ -48,7 +49,7 @@ def save_thumbnails(filepath, category):
 
 
 if __name__ == "__main__":
-    for root, dirs, files in os.walk("./public/images/"):
+    for root, dirs, files in os.walk("./images/"):
         if files:
             category = root.split("/")[-1]
             print(f"Processing {category}...")
