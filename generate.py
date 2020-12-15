@@ -49,7 +49,7 @@ def save_thumbnails(filepath, category):
 
 
 if __name__ == "__main__":
-    for root, dirs, files in os.walk("./images/"):
+    for root, dirs, files in os.walk("./public/images/"):
         if files:
             category = root.split("/")[-1]
             print(f"Processing {category}...")
