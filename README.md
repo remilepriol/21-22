@@ -8,5 +8,6 @@ Run `yarn deploy` to deploy on github pages
 
 Images copyright: 21-22
 
-Design copyright: Baptiste Plantin
+Design copyright: Baptiste Plantin && Rémi Le Priol
+
 
