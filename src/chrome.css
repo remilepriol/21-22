@@ -9,6 +9,10 @@ img.picto {
     shape-rendering: geometricPrecision;
 }
 
+img.logo {
+    width: 200px;
+}
+
 .chrome {
     box-shadow: 0 3px 8px 0px rgba(0, 0, 0, 0.12);
     position: absolute;
