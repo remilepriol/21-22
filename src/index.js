@@ -1,19 +1,19 @@
 import {render} from "react-dom";
 import React, {useRef, useState} from "react";
-import {useSprings, animated} from "react-spring";
+import {animated, useSprings} from "react-spring";
 import {useGesture} from "react-use-gesture";
 import {clamp, random, shuffle} from "lodash-es";
 import MobileDetect from "mobile-detect";
 
 import {intersects} from "./utils";
-import {ZoomButtons, ArrowButtons, Menu} from "./chrome";
+import {ArrowButtons, Menu, ZoomButtons} from "./chrome";
 import "./styles.css";
 import originalImages from "./images.json";
 
 const images = shuffle(originalImages);
 
 const INITIAL_ZOOM = 0.2;
-const INITIAL_FILTERS = {Facilitation: true, Corporate: true, Jeunesse: true};
+const INITIAL_FILTERS = {paysages: true, portraits: true};
 const INITIAL_MAP_POSITION = {x: 0, y: 0};
 
 const MARGIN = 300;
@@ -69,9 +69,9 @@ function getImagesParams(imagePositions, mapPosition, zoomLevel, filters) {
         return {
             xys: [
                 MIDDLE.x +
-                    (imagePositions.current[i][0] + mapPosition.current.x) * zoomLevel.current,
+                (imagePositions.current[i][0] + mapPosition.current.x) * zoomLevel.current,
                 MIDDLE.y +
-                    (imagePositions.current[i][1] + mapPosition.current.y) * zoomLevel.current,
+                (imagePositions.current[i][1] + mapPosition.current.y) * zoomLevel.current,
                 zoomLevel.current,
             ],
             display: filters[images[i].filter] ? "block" : "none",
@@ -321,10 +321,10 @@ function Viewpager() {
                             }}
                         >
                             {images[i].client}
-                            <LegendSpan xys={xys} cutoff={0.3} text={images[i].year} />
-                            <LegendSpan xys={xys} cutoff={0.5} text={images[i].category} />
-                            <LegendSpan xys={xys} cutoff={0.7} text={images[i].project} />
-                            <LegendSpan xys={xys} cutoff={0.9} text={images[i].description} />
+                            <LegendSpan xys={xys} cutoff={0.3} text={images[i].year}/>
+                            <LegendSpan xys={xys} cutoff={0.5} text={images[i].category}/>
+                            <LegendSpan xys={xys} cutoff={0.7} text={images[i].project}/>
+                            <LegendSpan xys={xys} cutoff={0.9} text={images[i].description}/>
                         </animated.div>
                     </animated.div>
                 ))}
@@ -338,4 +338,4 @@ document.getElementById("root").addEventListener("wheel", event => {
     event.preventDefault();
 });
 
-render(<Viewpager />, document.getElementById("root"));
+render(<Viewpager/>, document.getElementById("root"));

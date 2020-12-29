@@ -1,9 +1,7 @@
 import React, {useState} from "react";
 import {useSpring, animated} from "react-spring";
-import {getTranslations} from "./translate";
 import "./chrome.css";
 
-const translations = getTranslations();
 
 export function Picto({name, title}) {
     return <img src={`./icons/${name}.svg`} className="picto" alt={title} />;
@@ -89,21 +87,19 @@ export function Menu({filters, onFilterClick, isMobile}) {
                 }}
             >
                 <div className="menu-section menu-subtitle">
-                    {translations["Facilitation graphique"]}
-                    <br />& {translations["Illustration"]}
+                    Redirection Écologique
                 </div>
 
                 <div className="menu-section menu-contact">
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="mailto:contact@louiseplantin.fr"
+                        href="mailto:contact@21-22.com"
                     >
-                        contact @louiseplantin.fr
+                        contact @21-22.com
                     </a>
                     <br />
-                    06 52 55 41 18
-                    <div className="menu-social">
+                    {/*<div className="menu-social">
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -132,25 +128,19 @@ export function Menu({filters, onFilterClick, isMobile}) {
                         >
                             <Picto name="malt" title="Malt" />
                         </a>
-                    </div>
+                    </div>*/}
                 </div>
                 <div className="menu-section menu-filters">
                     <MenuFilterOption
                         filters={filters}
-                        name={"Facilitation"}
-                        label={translations["Facilitation"]}
+                        name={"paysages"}
+                        label={"paysages"}
                         onChange={onFilterClick}
                     />
                     <MenuFilterOption
                         filters={filters}
-                        name={"Corporate"}
-                        label={translations["Corporate"]}
-                        onChange={onFilterClick}
-                    />
-                    <MenuFilterOption
-                        filters={filters}
-                        name={"Jeunesse"}
-                        label={translations["Jeunesse"]}
+                        name={"portraits"}
+                        label={"portraits"}
                         onChange={onFilterClick}
                     />
                 </div>
