@@ -1,50 +1,82 @@
 [
     {
-        "src": "./thumbs/portraits/couple|plage|sweat|sceptique",
+        "src": "./thumbs/clients/Auremi|cap",
         "width": 1500,
         "height": 1125,
-        "category": "portraits",
-        "filter": "portraits",
-        "client": "couple",
-        "year": "plage",
-        "project": "sweat",
-        "description": "sceptique",
-        "number": 0
+        "category": "clients",
+        "filter": "clients",
+        "name": "Aure\u0301mi|cap"
     },
     {
-        "src": "./thumbs/portraits/couple|mer|maquillage|joie",
+        "src": "./thumbs/clients/Auremi|plage",
         "width": 1500,
         "height": 1125,
-        "category": "portraits",
-        "filter": "portraits",
-        "client": "couple",
-        "year": "mer",
-        "project": "maquillage",
-        "description": "joie",
-        "number": 0
+        "category": "clients",
+        "filter": "clients",
+        "name": "Aure\u0301mi|plage"
     },
     {
-        "src": "./thumbs/paysages/crique|mer|bleu|jour",
+        "src": "./thumbs/redirections/soleil_marin",
+        "width": 1500,
+        "height": 1125,
+        "category": "redirections",
+        "filter": "redirections",
+        "name": "soleil marin"
+    },
+    {
+        "src": "./thumbs/redirections/crique",
         "width": 1125,
         "height": 1500,
-        "category": "paysages",
-        "filter": "paysages",
-        "client": "crique",
-        "year": "mer",
-        "project": "bleu",
-        "description": "jour",
-        "number": 0
+        "category": "redirections",
+        "filter": "redirections",
+        "name": "crique"
     },
     {
-        "src": "./thumbs/paysages/soleil|mer|bleu|soir",
+        "src": "./thumbs/outils/Fresque_du_Climat",
         "width": 1500,
         "height": 1125,
-        "category": "paysages",
-        "filter": "paysages",
-        "client": "soleil",
-        "year": "mer",
-        "project": "bleu",
-        "description": "soir",
-        "number": 0
+        "category": "outils",
+        "filter": "outils",
+        "name": "Fresque du Climat"
+    },
+    {
+        "src": "./thumbs/raison/La_courbe_est_raide",
+        "width": 1500,
+        "height": 1440,
+        "category": "raison",
+        "filter": "raison",
+        "name": "La courbe est raide"
+    },
+    {
+        "src": "./thumbs/raison/Notre_nom",
+        "width": 1500,
+        "height": 1061,
+        "category": "raison",
+        "filter": "raison",
+        "name": "Notre nom"
+    },
+    {
+        "src": "./thumbs/blog/Changer_de_cap",
+        "width": 1500,
+        "height": 1125,
+        "category": "blog",
+        "filter": "blog",
+        "name": "Changer de cap"
+    },
+    {
+        "src": "./thumbs/blog/Paris_-_New_York",
+        "width": 1500,
+        "height": 1157,
+        "category": "blog",
+        "filter": "blog",
+        "name": "Paris - New York"
+    },
+    {
+        "src": "./thumbs/equipe/Equipe",
+        "width": 1500,
+        "height": 1127,
+        "category": "equipe",
+        "filter": "equipe",
+        "name": "E\u0301quipe"
     }
 ]

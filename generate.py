@@ -1,32 +1,8 @@
 import json
 import os
 
-from tqdm import tqdm
-from unidecode import unidecode
 from PIL import Image
-
-filelist = []
-
-
-def get_parts(filename):
-    name = os.path.splitext(filename)[0]
-    parts = name.split("|")
-
-    if len(parts) == 4:
-        [client, year, project, description] = parts
-        number = 0
-    elif len(parts) == 5:
-        [client, year, project, description, number] = parts
-    else:
-        raise ValueError(f"invalid file name {name} (path: {filename})")
-
-    return {
-        "client": client,
-        "year": year,
-        "project": project,
-        "description": description,
-        "number": number,
-    }
+from unidecode import unidecode
 
 
 def save_thumbnails(filepath, category):
@@ -49,16 +25,17 @@ def save_thumbnails(filepath, category):
 
 
 if __name__ == "__main__":
+
+    filelist = []
+
     for root, dirs, files in os.walk("./public/images/"):
         if files:
             category = root.split("/")[-1]
             print(f"Processing {category}...")
-
-            for filename in tqdm(files):
+            for filename in files:
                 if filename.startswith("."):
                     continue
 
-                parts = get_parts(filename)
                 filepath = root + "/" + filename
                 (width, height), src = save_thumbnails(filepath, category)
 
@@ -69,7 +46,7 @@ if __name__ == "__main__":
                         height=height,
                         category=category,
                         filter=category,
-                        **parts,
+                        name=os.path.splitext(filename)[0],
                     )
                 )
 
