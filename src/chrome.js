@@ -71,10 +71,22 @@ export function Menu({filters, onFilterClick, isMobile}) {
     const [open, setOpen] = useState(!isMobile);
     const {height, angle} = useSpring({
         from: {height: 0},
-        height: open ? 150 : 0,
+        height: open ? 260 : 0,
         angle: open ? 1 : 0,
         config: {duration: 200},
     });
+
+    const filtersList = [];
+    for (let filter in filters) {
+        filtersList.push(
+            <MenuFilterOption
+                filters={filters}
+                name={filter}
+                label={filter}
+                onChange={onFilterClick}
+            />
+        )
+    }
 
     return (
         <div className="chrome menu">
@@ -126,18 +138,7 @@ export function Menu({filters, onFilterClick, isMobile}) {
                     </div>*/}
                 </div>
                 <div className="menu-section menu-filters">
-                    <MenuFilterOption
-                        filters={filters}
-                        name={"paysages"}
-                        label={"paysages"}
-                        onChange={onFilterClick}
-                    />
-                    <MenuFilterOption
-                        filters={filters}
-                        name={"portraits"}
-                        label={"portraits"}
-                        onChange={onFilterClick}
-                    />
+                    {filtersList}
                 </div>
             </animated.div>
             <div className="menu-collapse"/>

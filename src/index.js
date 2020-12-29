@@ -13,7 +13,14 @@ import originalImages from "./images.json";
 const images = shuffle(originalImages);
 
 const INITIAL_ZOOM = 0.2;
-const INITIAL_FILTERS = {paysages: true, portraits: true};
+const INITIAL_FILTERS = {
+    blog: true,
+    clients: true,
+    equipe: true,
+    outils: true,
+    raison: true,
+    redirections: true
+};
 const INITIAL_MAP_POSITION = {x: 0, y: 0};
 
 const MARGIN = 300;
@@ -320,11 +327,8 @@ function Viewpager() {
                                 ),
                             }}
                         >
-                            {images[i].client}
-                            <LegendSpan xys={xys} cutoff={0.3} text={images[i].year}/>
-                            <LegendSpan xys={xys} cutoff={0.5} text={images[i].category}/>
-                            <LegendSpan xys={xys} cutoff={0.7} text={images[i].project}/>
-                            <LegendSpan xys={xys} cutoff={0.9} text={images[i].description}/>
+                            {images[i].name}
+                            <LegendSpan xys={xys} cutoff={0.1} text={images[i].category}/>
                         </animated.div>
                     </animated.div>
                 ))}
