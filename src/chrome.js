@@ -104,7 +104,7 @@ export function Menu({filters, filtersNames, onFilterClick, isMobile}) {
                         rel="noopener noreferrer"
                         href="mailto:contact@21-22.com"
                     >
-                        contact <nobr>@21-22.com</nobr>
+                        contact@21-22.com
                     </a>
                     {/*<br/>
                     <div className="menu-social">
