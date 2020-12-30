@@ -82,6 +82,7 @@ export function Menu({filters, filtersNames, onFilterClick, isMobile}) {
             <MenuFilterOption
                 filters={filters}
                 name={filter}
+                key={filter}
                 label={filtersNames[filter]}
                 onChange={onFilterClick}
             />
