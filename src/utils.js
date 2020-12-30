@@ -21,3 +21,7 @@ export function intersects(image, x, y, otherImage, otherX, otherY, margin) {
         bounds.bottom + margin > otherBounds.top
     );
 }
+
+export function modulus(n, m) {
+  return ((n % m) + m) % m;
+}

@@ -5,7 +5,7 @@ import {useGesture} from "react-use-gesture";
 import {clamp, random, shuffle} from "lodash-es";
 import MobileDetect from "mobile-detect";
 
-import {intersects} from "./utils";
+import {intersects, modulus} from "./utils";
 import {ArrowButtons, Menu, ZoomButtons} from "./chrome";
 import "./styles.css";
 import originalImages from "./images.json";
@@ -241,9 +241,10 @@ function Viewpager() {
             <ArrowButtons
                 onClick={direction => {
                     let newIndex =
-                        selectedImageIndex === null ? 0 : selectedImageIndex + direction;
+                        selectedImageIndex === null ? 0 : modulus(selectedImageIndex + direction, images.length - 1);
+                    console.log(newIndex)
                     while (!filters[images[newIndex].filter]) {
-                        newIndex = (newIndex + direction) % (images.length - 1);
+                        newIndex = modulus(newIndex + direction, images.length - 1);
                     }
 
                     handleZoomToImageIndex(newIndex);
