@@ -2,7 +2,7 @@
   "name": "21-22.com",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.21-22.com/",
+  "homepage": "https://remilepriol.github.io/21-22/",
   "dependencies": {
     "lodash-es": "^4.17.11",
     "mobile-detect": "^1.4.3",
