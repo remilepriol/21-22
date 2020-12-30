@@ -67,7 +67,7 @@ function MenuFilterOption({filters, name, label, onChange}) {
     );
 }
 
-export function Menu({filters, onFilterClick, isMobile}) {
+export function Menu({filters, filtersNames, onFilterClick, isMobile}) {
     const [open, setOpen] = useState(!isMobile);
     const {height, angle} = useSpring({
         from: {height: 0},
@@ -82,7 +82,7 @@ export function Menu({filters, onFilterClick, isMobile}) {
             <MenuFilterOption
                 filters={filters}
                 name={filter}
-                label={filter}
+                label={filtersNames[filter]}
                 onChange={onFilterClick}
             />
         )

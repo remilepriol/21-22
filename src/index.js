@@ -14,13 +14,21 @@ const images = shuffle(originalImages);
 
 const INITIAL_ZOOM = 0.2;
 const INITIAL_FILTERS = {
-    blog: true,
-    clients: true,
+    raison: true,
     equipe: true,
     outils: true,
-    raison: true,
-    redirections: true
+    clients: true,
+    redirections: true,
+    blog: true,
 };
+const FILTERS_NAMES = {
+    blog: 'Blog',
+    clients: 'Clients',
+    equipe: 'Équipe',
+    outils: 'Outils',
+    raison: "Raison d'Être",
+    redirections: "Redirections",
+}
 const INITIAL_MAP_POSITION = {x: 0, y: 0};
 
 const MARGIN = 300;
@@ -244,6 +252,7 @@ function Viewpager() {
             {/*<SearchBar onSearch={() => {}} />*/}
             <Menu
                 filters={filters}
+                filtersNames={FILTERS_NAMES}
                 onFilterClick={filter => {
                     const newFilters = {...filters, [filter]: !filters[filter]};
                     setFilters(newFilters);
@@ -328,7 +337,8 @@ function Viewpager() {
                             }}
                         >
                             {images[i].name}
-                            <LegendSpan xys={xys} cutoff={0.1} text={images[i].category}/>
+                            <LegendSpan xys={xys} cutoff={0.1}
+                                        text={FILTERS_NAMES[images[i].category]}/>
                         </animated.div>
                     </animated.div>
                 ))}
