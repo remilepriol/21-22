@@ -77,9 +77,9 @@ function generatePositions(images, filters) {
     return positions;
 }
 
-const MIDDLE = {x: window.innerWidth / 2, y: window.innerHeight / 2};
 
 function getImagesParams(imagePositions, mapPosition, zoomLevel, filters) {
+    const MIDDLE = {x: window.innerWidth / 2, y: window.innerHeight / 2};
     return i => {
         return {
             xys: [
@@ -202,8 +202,8 @@ function Viewpager() {
         setSelectedImageIndex(index);
 
         zoomLevel.current = Math.min(
-            window.innerWidth / (image.width + 10),
-            window.innerHeight / (image.height + 10)
+            window.innerWidth / (image.width + 20),
+            window.innerHeight / (image.height + 20)
         );
 
         mapPosition.current = {
@@ -218,6 +218,8 @@ function Viewpager() {
 
     return (
         <div {...bind()} id="container" onDoubleClick={handleZoom.bind(null, 1)}>
+            <div className="vertical bar"></div>
+            <div className="horizontal bar"></div>
             <ZoomButtons
                 onHomeClick={() => {
                     zoomLevel.current = INITIAL_ZOOM;

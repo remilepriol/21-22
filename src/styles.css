@@ -16,7 +16,7 @@ body {
     width: 100%;
     user-select: none;
     font-family: "San Francisco", -apple-system, BlinkMacSystemFont, avenir next, avenir,
-        helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+    helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
     position: fixed;
     overscroll-behavior-y: none;
 }
@@ -30,10 +30,28 @@ body {
 
 #container {
     height: 100%;
-    margin: 30px;
+    margin: 0px;
 
     -ms-touch-action: none;
     touch-action: none;
+}
+
+.bar {
+    position: absolute;
+    background-color: black;
+    z-index: 10;
+}
+
+.vertical.bar {
+    left: 50%;
+    height: 100%;
+    width: 1px;
+}
+
+.horizontal.bar {
+    top: 50%;
+    width: 100%;
+    height: 1px;
 }
 
 #map {
