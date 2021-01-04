@@ -201,22 +201,16 @@ function Viewpager() {
         const image = images[index];
         setSelectedImageIndex(index);
 
-        if (image.width > image.height) {
-            zoomLevel.current = Math.max(
-                window.innerWidth / (image.width - 10),
-                window.innerHeight / (image.height - 10)
-            );
-        } else {
-            zoomLevel.current = Math.min(
-                window.innerWidth / (image.width - 10),
-                window.innerHeight / (image.height - 10)
-            );
-        }
+        zoomLevel.current = Math.min(
+            window.innerWidth / (image.width + 10),
+            window.innerHeight / (image.height + 10)
+        );
 
         mapPosition.current = {
             x: -imagePos[0] - image.width / 2,
             y: -imagePos[1] - image.height / 2,
         };
+
         setImages(getImagesParams(imagePositions, mapPosition, zoomLevel, filters));
     };
 
