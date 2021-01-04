@@ -289,6 +289,11 @@ function Viewpager() {
                             transform: xys.interpolate(
                                 (x, y, s) => `translate3d(${x}px,${y}px,0)`
                             ),
+                            // trying to fix the margin issue:
+                            // zoom is centered on center shifted by top and bottom margins
+                            // does not work
+                            width: images[i].width * zoomLevel.current,
+                            height: images[i].height * zoomLevel.current + 30,
                         }}
                     >
                         <animated.div
