@@ -218,8 +218,6 @@ function Viewpager() {
 
     return (
         <div {...bind()} id="container" onDoubleClick={handleZoom.bind(null, 1)}>
-            <div className="vertical bar"></div>
-            <div className="horizontal bar"></div>
             <ZoomButtons
                 onHomeClick={() => {
                     zoomLevel.current = INITIAL_ZOOM;
