@@ -105,38 +105,30 @@ export function Menu({filters, filtersNames, onFilterClick, isMobile}) {
                         href="mailto:contact@21-22.com"
                     >
                         contact@21-22.com
-                    </a>
-                    {/*<br/>
+                    </a><br/>
                     <div className="menu-social">
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.linkedin.com/in/louise-plantin-4b021186/"
+                            href="https://www.linkedin.com/company/vingt-et-un-vingt-deux/"
                         >
                             <Picto name="linkedin" title="LinkedIn" />
                         </a>
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.twitter.com/louiseplantin/"
+                            href="https://zei-world.com/fr/pro/2639"
                         >
-                            <Picto name="twitter" title="Twitter" />
+                            <Picto name="zei" title="Zei" extension={"png"}/>
                         </a>
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.instagram.com/louise.plantin/"
+                            href="https://calendly.com/vincent-rabaron/21-22"
                         >
-                            <Picto name="insta" title="Instagram" />
+                            <Picto name="calendly" title="Calendly" />
                         </a>
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.malt.fr/profile/louiseplantin"
-                        >
-                            <Picto name="malt" title="Malt" />
-                        </a>
-                    </div>*/}
+                    </div>
                 </div>
                 <div className="menu-section menu-filters">
                     {filtersList}
