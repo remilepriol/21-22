@@ -3,8 +3,8 @@ import {animated, useSpring} from "react-spring";
 import "./chrome.css";
 
 
-export function Picto({name, title}) {
-    return <img src={`./icons/${name}.svg`} className="picto" alt={title}/>;
+export function Picto({name, title, extension='svg'}) {
+    return <img src={`./icons/${name}.${extension}`} className="picto" alt={title}/>;
 }
 
 export function ZoomButtons({onHomeClick, onZoomClick, onShuffleClick, onLanguageClick}) {
@@ -62,7 +62,7 @@ export function SearchBar({onSearch}) {
 function MenuFilterOption({filters, name, label, onChange}) {
     return (
         <div className="menu-filters-option" onClick={onChange.bind(null, name)}>
-            <Picto name={filters[name] ? "carre-plein" : "carre-vide"}/> {label}
+            <Picto name={filters[name] ? "carre-plein" : "carre-vide"} extension={"png"}/> {label}
         </div>
     );
 }
