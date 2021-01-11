@@ -10,7 +10,7 @@ def save_thumbnails(filepath, category):
     path = unidecode(path_no_ext).replace("/images/", "/thumbs/").replace(" ", "_")
     os.makedirs(os.path.dirname(path), exist_ok=True)
 
-    max_size = 3500 if category == "Facilitation" else 1500
+    max_size = 1500
     image = Image.open(filepath)
     original_image_size = max(*image.size)
 
