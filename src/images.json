@@ -16,12 +16,12 @@
         "name": "Sessions interactives"
     },
     {
-        "src": "./thumbs/Eveil/Thematique___sectoriel",
+        "src": "./thumbs/Eveil/Thematique_&_sectoriel",
         "width": 1500,
         "height": 1125,
         "category": "Eveil",
         "filter": "Eveil",
-        "name": "The\u0301matique _ sectoriel"
+        "name": "The\u0301matique & sectoriel"
     },
     {
         "src": "./thumbs/Eveil/Trajectoires",
@@ -48,14 +48,6 @@
         "name": "Net Zero"
     },
     {
-        "src": "./thumbs/Eveil/Formation_a_l_animation",
-        "width": 1500,
-        "height": 1125,
-        "category": "Eveil",
-        "filter": "Eveil",
-        "name": "Formation a\u0300 l_animation"
-    },
-    {
         "src": "./thumbs/Eveil/Sensibilisation___formation",
         "width": 1500,
         "height": 1125,
@@ -70,6 +62,14 @@
         "category": "Eveil",
         "filter": "Eveil",
         "name": "Bilan carbone"
+    },
+    {
+        "src": "./thumbs/Eveil/Formation_a_l'animation",
+        "width": 1500,
+        "height": 1125,
+        "category": "Eveil",
+        "filter": "Eveil",
+        "name": "Formation a\u0300 l'animation"
     },
     {
         "src": "./thumbs/Eveil/Atelier_My_CO2",
@@ -152,14 +152,6 @@
         "name": "Raideur de la courbe"
     },
     {
-        "src": "./thumbs/Preface/Raison_d_etre",
-        "width": 1500,
-        "height": 1125,
-        "category": "Preface",
-        "filter": "Preface",
-        "name": "Raison d_e\u0302tre"
-    },
-    {
         "src": "./thumbs/Preface/Redirection_ecologique",
         "width": 1500,
         "height": 1125,
@@ -174,6 +166,14 @@
         "category": "Preface",
         "filter": "Preface",
         "name": "Table des matie\u0300res"
+    },
+    {
+        "src": "./thumbs/Preface/Raison_d'etre",
+        "width": 1500,
+        "height": 1125,
+        "category": "Preface",
+        "filter": "Preface",
+        "name": "Raison d'e\u0302tre"
     },
     {
         "src": "./thumbs/Reflexions/Imagine",

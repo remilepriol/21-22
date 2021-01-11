@@ -205,7 +205,7 @@ function Viewpager() {
 
         zoomLevel.current = Math.min(
             window.innerWidth / (image.width + 20),
-            window.innerHeight / (image.height + 20)
+            window.innerHeight / (image.height + 200)
         );
 
         mapPosition.current = {
