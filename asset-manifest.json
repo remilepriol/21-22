@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "www.21-22.com/static/css/main.1408478c.chunk.css",
-    "main.js": "www.21-22.com/static/js/main.fa6912b0.chunk.js",
-    "main.js.map": "www.21-22.com/static/js/main.fa6912b0.chunk.js.map",
-    "runtime~main.js": "www.21-22.com/static/js/runtime~main.2b29e9d2.js",
-    "runtime~main.js.map": "www.21-22.com/static/js/runtime~main.2b29e9d2.js.map",
-    "static/js/2.2b0bf620.chunk.js": "www.21-22.com/static/js/2.2b0bf620.chunk.js",
-    "static/js/2.2b0bf620.chunk.js.map": "www.21-22.com/static/js/2.2b0bf620.chunk.js.map",
-    "index.html": "www.21-22.com/index.html",
-    "precache-manifest.36115b1167ddf2a932a66e9a4ba0acac.js": "www.21-22.com/precache-manifest.36115b1167ddf2a932a66e9a4ba0acac.js",
-    "service-worker.js": "www.21-22.com/service-worker.js",
-    "static/css/main.1408478c.chunk.css.map": "www.21-22.com/static/css/main.1408478c.chunk.css.map"
+    "main.css": "21-22.com/static/css/main.1408478c.chunk.css",
+    "main.js": "21-22.com/static/js/main.fa6912b0.chunk.js",
+    "main.js.map": "21-22.com/static/js/main.fa6912b0.chunk.js.map",
+    "runtime~main.js": "21-22.com/static/js/runtime~main.8f8b81a8.js",
+    "runtime~main.js.map": "21-22.com/static/js/runtime~main.8f8b81a8.js.map",
+    "static/js/2.2b0bf620.chunk.js": "21-22.com/static/js/2.2b0bf620.chunk.js",
+    "static/js/2.2b0bf620.chunk.js.map": "21-22.com/static/js/2.2b0bf620.chunk.js.map",
+    "index.html": "21-22.com/index.html",
+    "precache-manifest.faeecf4e781f1c16272b0f030bab0804.js": "21-22.com/precache-manifest.faeecf4e781f1c16272b0f030bab0804.js",
+    "service-worker.js": "21-22.com/service-worker.js",
+    "static/css/main.1408478c.chunk.css.map": "21-22.com/static/css/main.1408478c.chunk.css.map"
   }
 }
