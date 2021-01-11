@@ -62,7 +62,7 @@ export function SearchBar({onSearch}) {
 function MenuFilterOption({filters, name, label, onChange}) {
     return (
         <div className="menu-filters-option" onClick={onChange.bind(null, name)}>
-            <Picto name={filters[name] ? "carre-plein" : "carre-vide"} extension={"png"}/> {label}
+            <Picto name={filters[name] ? "carre-plein" : "carre-vide"} extension={"svg"}/> {label}
         </div>
     );
 }
