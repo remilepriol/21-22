@@ -96,84 +96,148 @@
         "name": "Emotions"
     },
     {
-        "src": "./thumbs/Preface/Cheminement",
-        "width": 1500,
-        "height": 1125,
-        "category": "Pre\u0301face",
-        "filter": "Pre\u0301face",
-        "name": "Cheminement"
-    },
-    {
-        "src": "./thumbs/Preface/2-1-2-2",
-        "width": 1500,
-        "height": 1125,
-        "category": "Pre\u0301face",
-        "filter": "Pre\u0301face",
-        "name": "2-1-2-2"
-    },
-    {
-        "src": "./thumbs/Preface/Raideur_de_la_courbe",
-        "width": 1500,
-        "height": 1125,
-        "category": "Pre\u0301face",
-        "filter": "Pre\u0301face",
-        "name": "Raideur de la courbe"
-    },
-    {
-        "src": "./thumbs/Preface/Raison_d_etre",
-        "width": 1500,
-        "height": 1125,
-        "category": "Pre\u0301face",
-        "filter": "Pre\u0301face",
-        "name": "Raison d_e\u0302tre"
-    },
-    {
-        "src": "./thumbs/Preface/Redirection_ecologique",
-        "width": 1500,
-        "height": 1125,
-        "category": "Pre\u0301face",
-        "filter": "Pre\u0301face",
-        "name": "Redirection e\u0301cologique"
-    },
-    {
-        "src": "./thumbs/Preface/Table_des_matieres",
-        "width": 1500,
-        "height": 1125,
-        "category": "Pre\u0301face",
-        "filter": "Pre\u0301face",
-        "name": "Table des matie\u0300res"
-    },
-    {
         "src": "./thumbs/Deploiement/Base_arriere",
         "width": 1500,
         "height": 1125,
-        "category": "De\u0301ploiement",
-        "filter": "De\u0301ploiement",
+        "category": "Deploiement",
+        "filter": "Deploiement",
         "name": "Base arrie\u0300re"
     },
     {
         "src": "./thumbs/Deploiement/Chapitre",
         "width": 1500,
         "height": 1125,
-        "category": "De\u0301ploiement",
-        "filter": "De\u0301ploiement",
+        "category": "Deploiement",
+        "filter": "Deploiement",
         "name": "Chapitre"
     },
     {
         "src": "./thumbs/Deploiement/Seminaires",
         "width": 1500,
         "height": 1125,
-        "category": "De\u0301ploiement",
-        "filter": "De\u0301ploiement",
+        "category": "Deploiement",
+        "filter": "Deploiement",
         "name": "Se\u0301minaires"
     },
     {
         "src": "./thumbs/Deploiement/Recits",
         "width": 1500,
         "height": 1125,
-        "category": "De\u0301ploiement",
-        "filter": "De\u0301ploiement",
+        "category": "Deploiement",
+        "filter": "Deploiement",
         "name": "Re\u0301cits"
+    },
+    {
+        "src": "./thumbs/Preface/Cheminement",
+        "width": 1500,
+        "height": 1125,
+        "category": "Preface",
+        "filter": "Preface",
+        "name": "Cheminement"
+    },
+    {
+        "src": "./thumbs/Preface/2-1-2-2",
+        "width": 1500,
+        "height": 1125,
+        "category": "Preface",
+        "filter": "Preface",
+        "name": "2-1-2-2"
+    },
+    {
+        "src": "./thumbs/Preface/Raideur_de_la_courbe",
+        "width": 1500,
+        "height": 1125,
+        "category": "Preface",
+        "filter": "Preface",
+        "name": "Raideur de la courbe"
+    },
+    {
+        "src": "./thumbs/Preface/Raison_d_etre",
+        "width": 1500,
+        "height": 1125,
+        "category": "Preface",
+        "filter": "Preface",
+        "name": "Raison d_e\u0302tre"
+    },
+    {
+        "src": "./thumbs/Preface/Redirection_ecologique",
+        "width": 1500,
+        "height": 1125,
+        "category": "Preface",
+        "filter": "Preface",
+        "name": "Redirection e\u0301cologique"
+    },
+    {
+        "src": "./thumbs/Preface/Table_des_matieres",
+        "width": 1500,
+        "height": 1125,
+        "category": "Preface",
+        "filter": "Preface",
+        "name": "Table des matie\u0300res"
+    },
+    {
+        "src": "./thumbs/Reflexions/Imagine",
+        "width": 1500,
+        "height": 1125,
+        "category": "Reflexions",
+        "filter": "Reflexions",
+        "name": "Imagine"
+    },
+    {
+        "src": "./thumbs/Reflexions/Alignement",
+        "width": 1500,
+        "height": 1125,
+        "category": "Reflexions",
+        "filter": "Reflexions",
+        "name": "Alignement"
+    },
+    {
+        "src": "./thumbs/Reflexions/Chapitre",
+        "width": 1500,
+        "height": 1125,
+        "category": "Reflexions",
+        "filter": "Reflexions",
+        "name": "Chapitre"
+    },
+    {
+        "src": "./thumbs/Reflexions/The_agility_effect",
+        "width": 1500,
+        "height": 1125,
+        "category": "Reflexions",
+        "filter": "Reflexions",
+        "name": "The agility effect"
+    },
+    {
+        "src": "./thumbs/Reflexions/Potion_magique",
+        "width": 1500,
+        "height": 1125,
+        "category": "Reflexions",
+        "filter": "Reflexions",
+        "name": "Potion magique"
+    },
+    {
+        "src": "./thumbs/Reflexions/Souffleurs",
+        "width": 1500,
+        "height": 1125,
+        "category": "Reflexions",
+        "filter": "Reflexions",
+        "name": "Souffleurs"
+    },
+    {
+        "src": "./thumbs/Reflexions/Guides",
+        "width": 1500,
+        "height": 1125,
+        "category": "Reflexions",
+        "filter": "Reflexions",
+        "name": "Guides"
+    },
+    {
+        "src": "./thumbs/Reflexions/Master_de_redirection",
+        "width": 1500,
+        "height": 1125,
+        "category": "Reflexions",
+        "filter": "Reflexions",
+        "name": "Master de redirection"
     },
     {
         "src": "./thumbs/L_agence/Partenaires_operationnels",
@@ -326,69 +390,5 @@
         "category": "Impulsion",
         "filter": "Impulsion",
         "name": "Nouvelles offres"
-    },
-    {
-        "src": "./thumbs/Reflexions/Imagine",
-        "width": 1500,
-        "height": 1125,
-        "category": "Re\u0301flexions",
-        "filter": "Re\u0301flexions",
-        "name": "Imagine"
-    },
-    {
-        "src": "./thumbs/Reflexions/Alignement",
-        "width": 1500,
-        "height": 1125,
-        "category": "Re\u0301flexions",
-        "filter": "Re\u0301flexions",
-        "name": "Alignement"
-    },
-    {
-        "src": "./thumbs/Reflexions/Chapitre",
-        "width": 1500,
-        "height": 1125,
-        "category": "Re\u0301flexions",
-        "filter": "Re\u0301flexions",
-        "name": "Chapitre"
-    },
-    {
-        "src": "./thumbs/Reflexions/The_agility_effect",
-        "width": 1500,
-        "height": 1125,
-        "category": "Re\u0301flexions",
-        "filter": "Re\u0301flexions",
-        "name": "The agility effect"
-    },
-    {
-        "src": "./thumbs/Reflexions/Potion_magique",
-        "width": 1500,
-        "height": 1125,
-        "category": "Re\u0301flexions",
-        "filter": "Re\u0301flexions",
-        "name": "Potion magique"
-    },
-    {
-        "src": "./thumbs/Reflexions/Souffleurs",
-        "width": 1500,
-        "height": 1125,
-        "category": "Re\u0301flexions",
-        "filter": "Re\u0301flexions",
-        "name": "Souffleurs"
-    },
-    {
-        "src": "./thumbs/Reflexions/Guides",
-        "width": 1500,
-        "height": 1125,
-        "category": "Re\u0301flexions",
-        "filter": "Re\u0301flexions",
-        "name": "Guides"
-    },
-    {
-        "src": "./thumbs/Reflexions/Master_de_redirection",
-        "width": 1500,
-        "height": 1125,
-        "category": "Re\u0301flexions",
-        "filter": "Re\u0301flexions",
-        "name": "Master de redirection"
     }
 ]
