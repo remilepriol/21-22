@@ -71,7 +71,7 @@ export function Menu({filters, filtersNames, onFilterClick, isMobile}) {
     const [open, setOpen] = useState(!isMobile);
     const {height, angle} = useSpring({
         from: {height: 0},
-        height: open ? 260 : 0,
+        height: open ? 280 : 0,
         angle: open ? 1 : 0,
         config: {duration: 200},
     });

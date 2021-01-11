@@ -14,20 +14,22 @@ const images = shuffle(originalImages);
 
 const INITIAL_ZOOM = 0.2;
 const INITIAL_FILTERS = {
-    raison: true,
-    equipe: true,
-    outils: true,
-    clients: true,
-    redirections: true,
-    blog: true,
+    Preface: true,
+    Eveil: false,
+    Impulsion: false,
+    Deploiement: false,
+    L_agence: false,
+    Les_clients: false,
+    Reflexions: false,
 };
 const FILTERS_NAMES = {
-    blog: 'Blog',
-    clients: 'Clients',
-    equipe: 'Équipe',
-    outils: 'Outils',
-    raison: "Raison d'Être",
-    redirections: "Redirections",
+    Preface: 'Préface',
+    Eveil: 'Éveil',
+    Impulsion: 'Impulsion',
+    Deploiement: 'Déploiement',
+    L_agence: "L'agence",
+    Les_clients: "Les clients",
+    Reflexions: "Réflexions",
 }
 const INITIAL_MAP_POSITION = {x: 0, y: 0};
 
