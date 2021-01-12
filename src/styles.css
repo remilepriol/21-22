@@ -1,7 +1,10 @@
+/* montserrat-300 - latin */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 @font-face {
-    font-family: "San Francisco";
-    font-weight: 400;
-    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
 }
 
 * {
@@ -15,7 +18,7 @@ body {
     height: 100%;
     width: 100%;
     user-select: none;
-    font-family: "San Francisco", -apple-system, BlinkMacSystemFont, avenir next, avenir,
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, avenir next, avenir,
     helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
     position: fixed;
     overscroll-behavior-y: none;
