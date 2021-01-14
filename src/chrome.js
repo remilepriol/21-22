@@ -72,7 +72,7 @@ export function Menu({filters, filtersNames, onFilterClick, isMobile}) {
     const {height, angle} = useSpring({
         from: {height: 0},
         height: open ? 280 : 0,
-        angle: open ? 1 : 0,
+        angle: open ? 0 : 1,
         config: {duration: 200},
     });
 
@@ -140,7 +140,7 @@ export function Menu({filters, filtersNames, onFilterClick, isMobile}) {
                 onClick={() => setOpen(!open)}
                 style={{transform: angle.interpolate(a => `rotate(${a * 180}deg)`)}}
             >
-                <Picto name={"f-basse"}/>
+                <Picto name={"f-haute"}/>
             </animated.div>
         </div>
     );
