@@ -21,7 +21,7 @@ img.picto {
 
 .chrome a {
     text-decoration: none;
-    color: black;
+    color: rgb(102, 102, 102);
 }
 
 .chrome a:hover {

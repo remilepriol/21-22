@@ -20,6 +20,7 @@ body {
     user-select: none;
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, avenir next, avenir,
     helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+    color: rgb(102, 102, 102);
     position: fixed;
     overscroll-behavior-y: none;
 }
