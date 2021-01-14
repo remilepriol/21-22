@@ -2,7 +2,7 @@
   "name": "21-22.com",
   "version": "0.1.0",
   "private": true,
-  "homepage": "",
+  "homepage": "https://www.21-22.com",
   "dependencies": {
     "lodash-es": "^4.17.11",
     "mobile-detect": "^1.4.3",
@@ -17,7 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "yarn build && echo 'www.21-22.com' > ./build/CNAME",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
