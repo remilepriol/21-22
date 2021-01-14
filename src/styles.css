@@ -86,7 +86,7 @@ body {
     margin-top: 12px;
     text-rendering: optimizeSpeed;
     font-size: 14px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
