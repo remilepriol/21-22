@@ -224,8 +224,8 @@ function Viewpager() {
                 onHomeClick={() => {
                     zoomLevel.current = INITIAL_ZOOM;
                     mapPosition.current = INITIAL_MAP_POSITION;
-                    setFilters(INITIAL_FILTERS);
-                    imagePositions.current = generatePositions(images, INITIAL_FILTERS);
+                    // setFilters(INITIAL_FILTERS);
+                    // imagePositions.current = generatePositions(images, INITIAL_FILTERS);
                     setImages(getImagesParams(imagePositions, mapPosition, zoomLevel, filters));
                 }}
                 onZoomClick={handleZoom}
