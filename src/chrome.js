@@ -3,7 +3,7 @@ import {animated, useSpring} from "react-spring";
 import "./chrome.css";
 
 
-export function Picto({name, title, extension='svg'}) {
+export function Picto({name, title, extension = 'svg'}) {
     return <img src={`./icons/${name}.${extension}`} className="picto" alt={title}/>;
 }
 
@@ -69,9 +69,10 @@ function MenuFilterOption({filters, name, label, onChange}) {
 
 export function Menu({filters, filtersNames, onFilterClick, isMobile}) {
     const [open, setOpen] = useState(!isMobile);
-    const {height, angle} = useSpring({
+    const {height, width, angle} = useSpring({
         from: {height: 0},
         height: open ? 280 : 0,
+        width: !isMobile ? 200 : (open ? 200 : 100),
         angle: open ? 0 : 1,
         config: {duration: 200},
     });
@@ -90,8 +91,18 @@ export function Menu({filters, filtersNames, onFilterClick, isMobile}) {
     }
 
     return (
-        <div className="chrome menu">
-            <img src={`./icons/2122-Logo_Cercle.jpg`} className="logo" alt="logo cercle"/>
+        <animated.div
+            className="chrome menu"
+            style={{
+                width: width.interpolate(width => `${width}px`),
+                overflow: "hidden",
+            }}
+        >
+            <img
+                src={`./icons/2122-Logo_Cercle.jpg`}
+                alt="logo cercle"
+                style={{width: '100%'}}
+            />
             <animated.div
                 style={{
                     height: height.interpolate(height => `${height}px`),
@@ -112,7 +123,7 @@ export function Menu({filters, filtersNames, onFilterClick, isMobile}) {
                             rel="noopener noreferrer"
                             href="https://www.linkedin.com/company/vingt-et-un-vingt-deux/"
                         >
-                            <Picto name="linkedin" title="LinkedIn" />
+                            <Picto name="linkedin" title="LinkedIn"/>
                         </a>
                         <a
                             target="_blank"
@@ -126,7 +137,7 @@ export function Menu({filters, filtersNames, onFilterClick, isMobile}) {
                             rel="noopener noreferrer"
                             href="https://calendly.com/vincent-rabaron/21-22"
                         >
-                            <Picto name="calendly" title="Calendly" />
+                            <Picto name="calendly" title="Calendly"/>
                         </a>
                     </div>
                 </div>
@@ -142,6 +153,6 @@ export function Menu({filters, filtersNames, onFilterClick, isMobile}) {
             >
                 <Picto name={"f-haute"}/>
             </animated.div>
-        </div>
+        </animated.div>
     );
 }

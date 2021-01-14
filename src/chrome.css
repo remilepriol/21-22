@@ -9,10 +9,6 @@ img.picto {
     shape-rendering: geometricPrecision;
 }
 
-img.logo {
-    width: 200px;
-}
-
 .chrome {
     box-shadow: 0 0px 5px 2px rgba(0, 0, 0, 0.12);
     position: absolute;
@@ -52,6 +48,7 @@ img.logo {
     line-height: 34px;
     border-bottom: 1px solid black;
 }
+
 .zoom .chrome-button .picto {
     margin: 8px;
 }
@@ -135,8 +132,8 @@ img.logo {
     line-height: 24px;
 }
 
+
 .menu .menu-section {
-    width: 200px;
     padding: 10px;
 }
 
@@ -178,5 +175,5 @@ img.logo {
 }
 
 .menu .close-button img.picto {
-    width: 19px;
+    width: 22px;
 }
