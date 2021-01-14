@@ -2,9 +2,16 @@ import React, {useState} from "react";
 import {animated, useSpring} from "react-spring";
 import "./chrome.css";
 
-
 export function Picto({name, title, extension = 'svg'}) {
     return <img src={`./icons/${name}.${extension}`} className="picto" alt={title}/>;
+}
+
+export function Divider() {
+    return <img
+        src={'icons/ligne-horizontale.svg'}
+        className='horizontal-divider'
+        alt='divider'
+    />
 }
 
 export function ZoomButtons({onHomeClick, onZoomClick, onShuffleClick, onLanguageClick}) {
@@ -13,12 +20,15 @@ export function ZoomButtons({onHomeClick, onZoomClick, onShuffleClick, onLanguag
             <div className="chrome-button zoom-home" onClick={onHomeClick}>
                 <Picto name="home" title="home"/>
             </div>
+            <Divider/>
             <div className="chrome-button zoom-plus" onClick={onZoomClick.bind(null, 1)}>
                 <Picto name="plus" title="plus"/>
             </div>
+            <Divider/>
             <div className="chrome-button zoom-minus" onClick={onZoomClick.bind(null, -1)}>
                 <Picto name="minus" title="minus"/>
             </div>
+            <Divider/>
             <div className="chrome-button zoom-shuffle" onClick={onShuffleClick}>
                 <Picto name="shuffle" title="shuffle"/>
             </div>
@@ -109,7 +119,10 @@ export function Menu({filters, filtersNames, onFilterClick, isMobile}) {
                     overflow: "hidden",
                 }}
             >
-                <div className="menu-section menu-contact">
+                <Divider/>
+                <div
+                    className="menu-section menu-contact"
+                >
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -141,6 +154,7 @@ export function Menu({filters, filtersNames, onFilterClick, isMobile}) {
                         </a>
                     </div>
                 </div>
+                <Divider/>
                 <div className="menu-section menu-filters">
                     {filtersList}
                 </div>
