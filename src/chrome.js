@@ -14,10 +14,10 @@ export function ZoomButtons({onHomeClick, onZoomClick, onShuffleClick, onLanguag
                 <Picto name="home" title="home"/>
             </div>
             <div className="chrome-button zoom-plus" onClick={onZoomClick.bind(null, 1)}>
-                +
+                <Picto name="plus" title="plus"/>
             </div>
             <div className="chrome-button zoom-minus" onClick={onZoomClick.bind(null, -1)}>
-                -
+                <Picto name="minus" title="minus"/>
             </div>
             <div className="chrome-button zoom-shuffle" onClick={onShuffleClick}>
                 <Picto name="shuffle" title="shuffle"/>
