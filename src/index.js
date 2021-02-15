@@ -242,6 +242,7 @@ function Viewpager() {
                     while (!filters[images[newIndex].filter]) {
                         newIndex = modulus(newIndex + direction, images.length - 1);
                     }
+
                     handleZoomToImageIndex(newIndex);
                 }}
             />
@@ -250,25 +251,16 @@ function Viewpager() {
                 filters={filters}
                 filtersNames={FILTERS_NAMES}
                 onFilterClick={filter => {
-                    // if click on active filter, do nothing
-                    if (filters[filter]){return;}
-                    // else select new active filter and dispatch selected images
                     const newFilters = {};
-                    for (const fil in filters) {
+                    for (const fil in filters){
                         newFilters[fil] = false;
                     }
-                    newFilters[filter] = true;
+                    newFilters[filter]= true;
                     setFilters(newFilters);
+                    setSelectedImageIndex(0);
+                    zoomLevel.current = INITIAL_ZOOM;
                     imagePositions.current = generatePositions(images, newFilters);
-                    // setImages(getImagesParams(imagePositions, mapPosition, zoomLevel, newFilters));
-
-                    // zoom on cover slide
-                    let imageIndex = images.findIndex(im =>
-                        im.filter === filter
-                        && (im.name === "Table des matie\u0300res" || im.name === "Chapitre")
-                    );
-                    console.log(imageIndex, images[imageIndex])
-                    handleZoomToImageIndex(imageIndex);
+                    setImages(getImagesParams(imagePositions, mapPosition, zoomLevel, newFilters));
                 }}
                 isMobile={isMobile}
             />
