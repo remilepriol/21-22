@@ -152,6 +152,14 @@ export function Menu({filters, filtersNames, onFilterClick, isMobile}) {
                         >
                             <Picto name="calendly" title="Calendly"/>
                         </a>
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://redirection-ecologique.21-22.com/"
+                        >
+                            <button>Redirection écologique...?</button>
+                        </a>
+
                     </div>
                 </div>
                 <Divider/>
