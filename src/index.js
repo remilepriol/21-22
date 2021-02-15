@@ -238,7 +238,6 @@ function Viewpager() {
                 onClick={direction => {
                     let newIndex =
                         selectedImageIndex === null ? 0 : modulus(selectedImageIndex + direction, images.length - 1);
-                    console.log(newIndex)
                     while (!filters[images[newIndex].filter]) {
                         newIndex = modulus(newIndex + direction, images.length - 1);
                     }

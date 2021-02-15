@@ -75,13 +75,13 @@ img.picto {
 .arrow .arrow-left,
 .arrow .arrow-right {
     display: inline-block;
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
 }
 
 .arrow .arrow-left img.picto,
 .arrow .arrow-right img.picto {
-    width: 30px;
+    width: 50px;
     margin: 8px;
     margin-top: 9px;
     margin-bottom: 7px;
