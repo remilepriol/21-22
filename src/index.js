@@ -251,7 +251,11 @@ function Viewpager() {
                 filters={filters}
                 filtersNames={FILTERS_NAMES}
                 onFilterClick={filter => {
-                    const newFilters = {...filters, [filter]: !filters[filter]};
+                    const newFilters = {};
+                    for (const fil in filters){
+                        newFilters[fil] = false;
+                    }
+                    newFilters[filter]= true;
                     setFilters(newFilters);
                     setSelectedImageIndex(0);
                     zoomLevel.current = INITIAL_ZOOM;
