@@ -127,40 +127,30 @@ export function Menu({filters, filtersNames, onFilterClick, isMobile}) {
                         target="_blank"
                         rel="noopener noreferrer"
                         href="mailto:contact@21-22.com"
+                        style = {{fontSize: '14px'}}
                     >
                         contact@21-22.com
-                    </a><br/>
-                    <div className="menu-social">
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.linkedin.com/company/vingt-et-un-vingt-deux/"
-                        >
-                            <Picto name="linkedin" title="LinkedIn"/>
-                        </a>
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://zei-world.com/fr/pro/2639"
-                        >
-                            <Picto name="zei" title="Zei" extension={"png"}/>
-                        </a>
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://calendly.com/vincent-rabaron/21-22"
-                        >
-                            <Picto name="calendly" title="Calendly"/>
-                        </a>
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://redirection-ecologique.21-22.com/"
-                        >
-                            <button>Redirection écologique...?</button>
-                        </a>
-
-                    </div>
+                    </a>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.linkedin.com/company/vingt-et-un-vingt-deux/"
+                        style={{padding:'10px', verticalAlign:'text-top'}}
+                    >
+                        <Picto name="linkedin" title="LinkedIn"/>
+                    </a>
+                    <br/>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://redirection-ecologique.21-22.com/"
+                    >
+                        <img
+                            src={'icons/bouton_vers_blog.jpg'}
+                            alt='Blog'
+                            style={{width: '100%'}}
+                        />
+                    </a>
                 </div>
                 <Divider/>
                 <div className="menu-section menu-filters">

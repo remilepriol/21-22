@@ -98,31 +98,6 @@ img.picto {
     left: 20px;
 }
 
-.search {
-    left: 20px;
-    bottom: 20px;
-    display: flex;
-}
-
-.search-input-container {
-    padding: 3px;
-    padding-left: 7px;
-    padding-right: 7px;
-    border-right: 1px solid black;
-    display: inline-block;
-}
-
-.search-input {
-    height: 30px;
-    width: 200px;
-    border: none;
-    font-size: 16px;
-}
-
-.search-input:focus {
-    outline: none;
-}
-
 .chrome-button.chrome-button-search {
     display: inline-block;
     padding-left: 7px;
@@ -142,17 +117,6 @@ img.picto {
     text-align: left;
     font-size: 18px;
     line-height: 24px;
-}
-
-.menu .menu-section.menu-subtitle {
-    padding-top: 0;
-}
-
-.menu .menu-contact .menu-social .picto {
-    padding-top: 2px;
-    padding-left: 1px;
-    padding-right: 9px;
-    width: 36px;
 }
 
 .menu-filters-option {
