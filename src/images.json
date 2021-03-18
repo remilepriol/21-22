@@ -136,6 +136,94 @@
         "name": "Re\u0301cits"
     },
     {
+        "src": "./thumbs/Les_clients/Vinci",
+        "width": 1500,
+        "height": 1127,
+        "category": "Les_clients",
+        "filter": "Les_clients",
+        "name": "Vinci"
+    },
+    {
+        "src": "./thumbs/Les_clients/Vinci_Energies",
+        "width": 1500,
+        "height": 1122,
+        "category": "Les_clients",
+        "filter": "Les_clients",
+        "name": "Vinci Energies"
+    },
+    {
+        "src": "./thumbs/Les_clients/Tediber",
+        "width": 1500,
+        "height": 1105,
+        "category": "Les_clients",
+        "filter": "Les_clients",
+        "name": "Tediber"
+    },
+    {
+        "src": "./thumbs/Les_clients/Chapitre",
+        "width": 1500,
+        "height": 1125,
+        "category": "Les_clients",
+        "filter": "Les_clients",
+        "name": "Chapitre"
+    },
+    {
+        "src": "./thumbs/Les_clients/Verallia",
+        "width": 1500,
+        "height": 1107,
+        "category": "Les_clients",
+        "filter": "Les_clients",
+        "name": "Verallia"
+    },
+    {
+        "src": "./thumbs/Les_clients/Ville_de_Saint-Brieuc",
+        "width": 1500,
+        "height": 1118,
+        "category": "Les_clients",
+        "filter": "Les_clients",
+        "name": "Ville de Saint-Brieuc"
+    },
+    {
+        "src": "./thumbs/Les_clients/Tudigo",
+        "width": 1500,
+        "height": 1059,
+        "category": "Les_clients",
+        "filter": "Les_clients",
+        "name": "Tudigo"
+    },
+    {
+        "src": "./thumbs/Les_clients/Ecosystem",
+        "width": 1500,
+        "height": 1147,
+        "category": "Les_clients",
+        "filter": "Les_clients",
+        "name": "Ecosystem"
+    },
+    {
+        "src": "./thumbs/Les_clients/Vinci_Construction",
+        "width": 1500,
+        "height": 1104,
+        "category": "Les_clients",
+        "filter": "Les_clients",
+        "name": "Vinci Construction"
+    },
+    {
+        "src": "./thumbs/Les_clients/Air_France",
+        "width": 1500,
+        "height": 1071,
+        "category": "Les_clients",
+        "filter": "Les_clients",
+        "name": "Air France"
+    },
+    {
+        "src": "./thumbs/Les_clients/Ville_d'Angers",
+        "width": 1500,
+        "height": 1084,
+        "category": "Les_clients",
+        "filter": "Les_clients",
+        "name": "Ville d'Angers"
+    },
+    {
         "src": "./thumbs/Preface/Cheminement",
         "width": 1392,
         "height": 1500,
@@ -302,94 +390,6 @@
         "category": "L_agence",
         "filter": "L_agence",
         "name": "Chapitre"
-    },
-    {
-        "src": "./thumbs/Les_clients/Vinci",
-        "width": 1500,
-        "height": 1127,
-        "category": "Les clients",
-        "filter": "Les clients",
-        "name": "Vinci"
-    },
-    {
-        "src": "./thumbs/Les_clients/Vinci_Energies",
-        "width": 1500,
-        "height": 1122,
-        "category": "Les clients",
-        "filter": "Les clients",
-        "name": "Vinci Energies"
-    },
-    {
-        "src": "./thumbs/Les_clients/Tediber",
-        "width": 1500,
-        "height": 1105,
-        "category": "Les clients",
-        "filter": "Les clients",
-        "name": "Tediber"
-    },
-    {
-        "src": "./thumbs/Les_clients/Chapitre",
-        "width": 1500,
-        "height": 1125,
-        "category": "Les clients",
-        "filter": "Les clients",
-        "name": "Chapitre"
-    },
-    {
-        "src": "./thumbs/Les_clients/Verallia",
-        "width": 1500,
-        "height": 1107,
-        "category": "Les clients",
-        "filter": "Les clients",
-        "name": "Verallia"
-    },
-    {
-        "src": "./thumbs/Les_clients/Ville_de_Saint-Brieuc",
-        "width": 1500,
-        "height": 1118,
-        "category": "Les clients",
-        "filter": "Les clients",
-        "name": "Ville de Saint-Brieuc"
-    },
-    {
-        "src": "./thumbs/Les_clients/Tudigo",
-        "width": 1500,
-        "height": 1059,
-        "category": "Les clients",
-        "filter": "Les clients",
-        "name": "Tudigo"
-    },
-    {
-        "src": "./thumbs/Les_clients/Ecosystem",
-        "width": 1500,
-        "height": 1147,
-        "category": "Les clients",
-        "filter": "Les clients",
-        "name": "Ecosystem"
-    },
-    {
-        "src": "./thumbs/Les_clients/Vinci_Construction",
-        "width": 1500,
-        "height": 1104,
-        "category": "Les clients",
-        "filter": "Les clients",
-        "name": "Vinci Construction"
-    },
-    {
-        "src": "./thumbs/Les_clients/Air_France",
-        "width": 1500,
-        "height": 1071,
-        "category": "Les clients",
-        "filter": "Les clients",
-        "name": "Air France"
-    },
-    {
-        "src": "./thumbs/Les_clients/Ville_d'Angers",
-        "width": 1500,
-        "height": 1084,
-        "category": "Les clients",
-        "filter": "Les clients",
-        "name": "Ville d'Angers"
     },
     {
         "src": "./thumbs/Impulsion/Liberation",
